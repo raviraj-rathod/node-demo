@@ -1,0 +1,10 @@
+
+POST http://localhost:3001/api/todos
+content-type: application/json
+
+{
+  "name":"Test"
+}
+
+###
+GET http://localhost:3001/api/todos
